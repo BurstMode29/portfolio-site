@@ -1,0 +1,134 @@
+.Home {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.leftPanel {
+    background-color: #A61C28;
+    width: 20%;
+    height: 100%;
+}
+
+.rightPanel {
+    background-color: #1D2623;
+    height: 100%;
+    width: 80%;
+}
+
+.Logo {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+
+.Logo i {
+    top: -5px;
+    position: relative;
+}
+
+.pages {
+    position: relative;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages ul li {
+    list-style: none;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.links {
+    text-decoration-line: none;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    top: 25%;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+.content button {
+    background-color: transparent;
+    border-color: #A61C28;
+    border-style: solid;
+    font-size: 20px;
+    color: #A61C28;
+    border-radius: 100px;
+    height: 50px;
+    width: 300px;
+}
+
+.content button:hover {
+    box-shadow: 0px 0px 20px #A61C28;
+}
+
+.Navigation {
+    width: 100%;
+}
+
+
+.Navigation ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+}
+
+.Navigation ul li {
+    margin:0px 20px 0px 20px;
+    color: #A61C28;
+}
+
+/* AboutMe */
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -100px;
+}
+
+.contentBox1 {
+    height: 400px;
+    width: 200px;
+    margin: 50px;
+    background-color: white;
+}
+
+.contentBox2 {
+    height: 400px;
+    width: 200px;
+    margin: 50px;
+    background-color: white;
+}
+
+.contentBox3 {
+    height: 400px;
+    width: 200px;
+    margin: 50px;
+    background-color: white;
+}
+
