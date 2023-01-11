@@ -4,12 +4,11 @@ import './style.css';
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 
-
 const index = () => {
     <React.StrictMode>
-        <BrowserRouter>
-            <App />
-        </BrowserRouter>
+            <BrowserRouter>
+                <App />
+            </BrowserRouter>
     </React.StrictMode>
 };
 

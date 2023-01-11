@@ -11,7 +11,7 @@ export const Nav = () => {
                 <ul>
                     <li>ABOUT</li>
                     <li>CONTACT</li>
-                    <li>PROJECTS</li>
+                    <Link to='/projects'><li>PROJECTS</li></Link>
                 </ul>
             </div>
         </div>
