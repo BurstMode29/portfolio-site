@@ -7,7 +7,7 @@
 }
 
 .leftPanel {
-    background-color: #A61C28;
+    background-color: #4F5939;
     width: 20%;
     height: 100%;
 }
@@ -58,7 +58,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    color: white;
+    color: #8C5637;
     top: 25%;
 }
 
@@ -72,17 +72,17 @@
 
 .content button {
     background-color: transparent;
-    border-color: #A61C28;
+    border-color: #8C5637;
     border-style: solid;
     font-size: 20px;
-    color: #A61C28;
+    color: #8C5637;
     border-radius: 100px;
     height: 50px;
     width: 300px;
 }
 
 .content button:hover {
-    box-shadow: 0px 0px 20px #A61C28;
+    box-shadow: 0px 0px 20px #8C5637;
 }
 
 .Navigation {
@@ -98,8 +98,8 @@
 }
 
 .Navigation ul li {
-    margin:0px 20px 0px 20px;
-    color: #A61C28;
+    margin:20px 20px 0px 20px;
+    color: #8C5637;
 }
 
 /* AboutMe */
@@ -133,11 +133,23 @@
 }
 
 
-/* Projects */
-/* 
-.m-2 {
-    height: 400px;
-    width: 200px;
-    background-color: white;
-    color: black;
-} */
+/* certificates */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    height: 50px;
+    top: -170px;
+}
+
+.grid-item {
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+

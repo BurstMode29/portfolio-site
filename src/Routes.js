@@ -4,7 +4,7 @@ import { Content } from "./pages/Content";
 import { AboutMe } from "../src/pages/AboutMe";
 import { WhatIDo } from "./pages/WhatIDo";
 import { Contact } from "./pages/Contact";
-import Projects from "./components/projects";
+import Certificates from "./components/certificates";
 
 const Pages = () => {
     return (
@@ -14,7 +14,7 @@ const Pages = () => {
                 <Route path="/aboutme" element={<AboutMe />} />
                 <Route path="/whatido" element={<WhatIDo />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/projects" element={<Projects />} />
+                <Route path="/projects" element={<Certificates />} />
             </Routes>
         </div>
     )
